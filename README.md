@@ -23,7 +23,7 @@ Antes de instalar as dependências, verifique e instale a versão do node descri
   - /template-parts
     - /modules
       - /sections
-    - /partials
+    - /layouts
 - /src
   - /js
     - /modules
