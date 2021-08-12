@@ -21,12 +21,12 @@ Antes de instalar as dependências, verifique e instale a versão do node descri
   - /api
   - /functions
   - /template-parts
-    - /components
+    - /modules
+      - /sections
     - /partials
-    - /sections
 - /src
   - /js
-    - /components
+    - /modules
     - /services
     - /utils
   - /scss
@@ -36,8 +36,8 @@ Antes de instalar as dependências, verifique e instale a versão do node descri
       - /_helpers
       - /_variables
       - /_vendor
-    - /components
-    - /partials
+    - /modules
+    - /layout
     - /vendor
 - .gitignore
 - 404.php
@@ -72,17 +72,13 @@ Funções do site
 
 Partes reutilizáveis do site
 
-###### /inc/template-parts/components
+###### /inc/template-parts/modules
 
-Componentes que são usados em diferentes partes do site.
+Módulos que são usados em diferentes partes do site.
 
-###### /inc/template-parts/partials
+###### /inc/template-parts/layouts
 
 Partes do site
-
-###### /inc/template-parts/sections
-
-Seções do site
 
 #### /src
 
