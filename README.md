@@ -17,7 +17,7 @@ Antes de instalar as dependências, verifique e instale a versão do node descri
   - /fonts
   - /img
   - /js
-- /inc
+- /includes
   - /api
   - /functions
   - /template-parts
@@ -56,27 +56,27 @@ Antes de instalar as dependências, verifique e instale a versão do node descri
 
 Arquivos finais e compilados.
 
-#### /inc
+#### /includes
 
 Includes
 
-##### /inc/api
+##### /includes/api
 
 Endpoints customizados
 
-##### /inc/functions
+##### /includes/functions
 
 Funções do site
 
-##### /inc/template-parts
+##### /includes/template-parts
 
 Partes reutilizáveis do site
 
-###### /inc/template-parts/modules
+###### /includes/template-parts/modules
 
 Módulos que são usados em diferentes partes do site.
 
-###### /inc/template-parts/layouts
+###### /includes/template-parts/layouts
 
 Partes do site
 
