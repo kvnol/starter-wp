@@ -3,13 +3,14 @@
 ## Sumário
 
 - [Instalação](#Instalação)
+- [Hierarquia de pastas](#Hierarquia-de-pastas)
 - [Estrutura de pastas](#Estrutura-de-pastas)
 
 ### Instalação
 
 Antes de instalar as dependências, verifique e instale a versão do node descrita no arquivo [package.json](/package.json#L10) (recomendado usar NVM) e após isso rodar `npm install` na raíz do tema.
 
-### Estrutura de pastas
+### Hierarquia de pastas
 
 - /assets
   - /css
@@ -48,3 +49,49 @@ Antes de instalar as dependências, verifique e instale a versão do node descri
 - package.json
 - README.md
 - style.css
+
+### Estrutura de pastas
+
+#### /assets
+
+Arquivos finais e compilados.
+
+#### /inc
+
+Includes
+
+##### /inc/api
+
+Endpoints customizados
+
+##### /inc/functions
+
+Funções do site
+
+##### /inc/template-parts
+
+Partes reutilizáveis do site
+
+###### /inc/template-parts/components
+
+Componentes que são usados em diferentes partes do site.
+
+###### /inc/template-parts/partials
+
+Partes do site
+
+###### /inc/template-parts/sections
+
+Seções do site
+
+#### /src
+
+Arquivos fontes
+
+##### /src/js
+
+Scripts
+
+##### /src/scss
+
+Arquivos Sass
